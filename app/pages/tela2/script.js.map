@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["events","on","scorm","saveObject"],"mappings":"AAAAA,OAAOC,GAAG,QAAS,WACfC,MAAMC,WAAW,UAAW,CAAA,CAAK,CACrC,CAAC","file":"script.js","sourcesContent":["events.on('ready', function() {\r\n    scorm.saveObject('trilha4', true);\r\n});"]}

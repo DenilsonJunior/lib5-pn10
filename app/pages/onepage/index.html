@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../../styles/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../../styles/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../modules/flamboyant-props.min.css"/>
+</head>
+<body role="application">
+  <header>
+    <div class="component-template-header fixedHeader hamburguerAtivo" id="header">
+      <div class="container-image"><img src="../../assets/img/logo.svg" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+      </div>
+    </div>
+  </header>
+  <interection>
+    <div class="container-interaction-arrows bottom   ">
+      <button class="container-arrow container-arrow-left arrow-left" tabindex="1001" role="button" aria-label="Voltar para a tela anterior." title="Seta para esquerda."></button>
+      <button class="container-arrow container-arrow-right arrow-right" tabindex="1000" role="button" aria-label="Avançar para a próxima tela." title="Seta para direita."></button>
+    </div>
+  </interection>
+  <body header-hide prev-hide next-hide next-page="tela1">
+    <div class="onePage"><img class="logo" src="../../assets/img/logo.svg"/>
+      <div class="flex">
+        <div class="boxLeft">
+          <button class="btn btn1" tabindex="20">
+            <div class="ico"></div>
+            <p><b>Desconstrução do eurocentrismo</b></p>
+          </button>
+          <button class="btn btn2 block" tabindex="21">
+            <div class="ico"></div>
+            <p><b>Construindo novas referências</b></p>
+          </button>
+          <button class="btn btn3 block" tabindex="22">
+            <div class="ico"></div>
+            <p><b>Calendário de Adão e Ocre de Blombos</b></p>
+          </button>
+          <button class="btn btn4 block" tabindex="23">
+            <div class="ico"></div>
+            <p><b>Ossos de Lebombo e Osso Ishango</b></p>
+          </button>
+        </div>
+        <div class="boxRight">
+          <div class="cardImg"><img class="mapa mapa0" src="../../assets/img/mapdetal.png"/><img class="mapa mapa1 hide" src="../../assets/img/mapdetal1.png"/><img class="mapa mapa2 hide" src="../../assets/img/mapdetal2.png"/><img class="mapa mapa3 hide" src="../../assets/img/mapdetal3.png"/><img class="mapa mapa4 hide" src="../../assets/img/mapdetal4.png"/>
+            <button class="cardMap mapa map map1 hide" tabindex="24" onclick="navigate.goto('onepage1')"><img src="../../assets/img/grecia.png"/>
+              <h2 class="h21">Grécia</h2><img class="pulse pin pin1" src="../../assets/img/pin.png"/>
+            </button>
+            <button class="cardMap mapa map map2 hide" tabindex="25" onclick="navigate.goto('onepage2')"><img src="../../assets/img/egito.png"/>
+              <h2 class="h22">Egito</h2><img class="pulse pin pin2" src="../../assets/img/pin.png"/>
+            </button>
+            <button class="cardMap mapa map map3 hide" tabindex="26" onclick="navigate.goto('onepage3')"><img src="../../assets/img/africa.png"/>
+              <h2 class="h23">África do Sul</h2><img class="pulse pin pin3" src="../../assets/img/pin.png"/>
+            </button>
+            <button class="cardMap mapa map map4 hide" tabindex="27" onclick="navigate.goto('onepage4')"><img src="../../assets/img/congo.png"/>
+              <h2 class="h24">Congo</h2><img class="pulse pin pin4" src="../../assets/img/pin.png"/>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</body>
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../scripts/jquery-ui.min.js"></script>
+<script src="../../scripts/jquery.ui.touch-punch.min.js"></script>
+<script src="../../scripts/components.mixin.scripts.js"></script>
+<script src="../../scripts/page.js"></script>
+<script src="script.js"></script>
